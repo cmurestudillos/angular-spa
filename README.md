@@ -1,27 +1,19 @@
-# AngularSpa
+<p align="center">
+  <a href="https://www.buymeacoffee.com/cmur"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=cmur&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"></a>
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.0.
+# SPA (Single Page Application)
 
-## Development server
+Ejemplo de SPA (Single Page Application) realizado en Angular y Bootstrap 4.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Instalar Dependencias
+- Instalar `npm install`
 
-## Code scaffolding
+## Iniciar proyecto
+Ejecutar en terminal el comando `ng serve` e introducir en el navegador `http://localhost:4200/` o ejecutar `ng serve -o` y se abrira automaticamente en el navegador.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Ayuda
+Para mas informacion, ejecutar el comando `ng help` en el terminal o ir a [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## Build
+Este proyecto se ha generado con [Angular CLI](https://github.com/angular/angular-cli) version 17.1.0.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

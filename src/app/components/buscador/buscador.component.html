@@ -1,0 +1,14 @@
+<h1 class="text-white">Buscando: <small>{{ palabra }}</small></h1>
+<hr class="bg-white">
+
+<div class="row animated fadeIn slow" *ngIf="heroes.length == 0">
+    <div class="col-md-12">
+        <div class="alert alert-info" role="alert">
+            No existen resultados sobre la busqueda realizada: {{ palabra }}
+        </div>
+    </div>
+</div>
+
+<div class="card-columns">
+    <app-heroe-tarjeta [heroe]="item" [index]="item.index || 0" *ngFor="let item of heroes;"></app-heroe-tarjeta>
+</div>

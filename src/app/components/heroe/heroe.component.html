@@ -1,0 +1,18 @@
+<h1 class="animated fadeIn slow text-white">{{heroe.nombre | uppercase}} <small>( {{heroe.aparicion | date:'y'}} )</small></h1>
+<hr class="bg-white">
+<div class="row animated fadeIn slow bg-white rounded p-3">
+    <div class="col-md-4">
+        <img [src]="heroe.img" [title]="heroe.nombre" class="img-fluid shadow-lg p-3 mb-5 bg-white rounded" [alt]="heroe.nombre">
+        <br><br>
+        <button (click)="volverHeroes()" type="button" class="btn btn-4 btn-block"><i>Volver</i></button>
+    </div>
+    <div class="col-md-8">
+        <h3>{{heroe.nombre}}</h3>
+        <hr>
+        <p>{{heroe.bio}}</p>
+        <div>
+            <img *ngIf="heroe.casa == 'DC'" src="assets/img/dc.svg" [title]="heroe.casa" class="img-fluid" width="150" height="150" [alt]="heroe.casa">
+            <img *ngIf="heroe.casa == 'Marvel'" src="assets/img/marvel.svg" [title]="heroe.casa" class="img-fluid" width="150" height="150" [alt]="heroe.casa">
+        </div>
+    </div>
+</div>

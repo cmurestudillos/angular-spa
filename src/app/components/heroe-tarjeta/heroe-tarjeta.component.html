@@ -1,0 +1,9 @@
+<div class="card animated fadeIn slow shadow">
+    <img [src]="heroe.img" class="card-img-top img-fluid" [title]="heroe.nombre" [alt]="heroe.nombre">
+    <div class="card-body">
+        <h5 class="card-title">{{ heroe.nombre }}</h5>
+        <p class="card-text">{{ heroe.bio }}</p>
+        <p class="card-text"><small class="text-muted"><strong>Año:</strong> {{ heroe.aparicion }}</small></p>
+        <button (click)="verHeroe()" type="button" class="btn btn-4 btn-block"><i>Ver mas...</i></button>
+    </div>
+</div>
